@@ -1,1 +1,24 @@
 
+[
+  {
+    "Title": "Cappuccino",
+    "Description": "Rich espresso combined with steamed milk and foam.",
+    "Price": 180,
+    "Author": "Kaldi",
+    "Featured": true
+  },
+  {
+    "Title": "Latte",
+    "Description": "Smooth espresso with steamed milk.",
+    "Price": 160,
+    "Author": "Kaldi",
+    "Featured": false
+  },
+  {
+    "Title": "Cold Coffee",
+    "Description": "Refreshing chilled coffee with milk.",
+    "Price": 150,
+    "Author": "Kaldi",
+    "Featured": true
+  }
+]
