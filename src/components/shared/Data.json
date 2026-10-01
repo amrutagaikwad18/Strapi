@@ -1,16 +1,23 @@
 [
+ {
+  "Title": "Mocha",
+  "Description": "A delicious combination of rich espresso, smooth steamed milk, and premium chocolate, creating a perfectly balanced coffee with a sweet and creamy flavor. Topped with a soft layer of milk foam, this indulgent drink is ideal for anyone who enjoys the rich taste of chocolate blended with freshly brewed coffee.",
+  "Price": 190,
+  "Author": "Kaldi",
+  "Featured": true
+},
+{
+  "Title": "Americano",
+  "Description": "A classic and refreshing coffee prepared by combining freshly brewed espresso with hot water. It has a smooth, rich, and slightly bold flavor while maintaining the natural aroma of high-quality coffee beans. Simple yet satisfying, Americano is a perfect choice for those who prefer a strong coffee without milk or added sweetness.",
+  "Price": 140,
+  "Author": "Kaldi",
+  "Featured": false
+}
   {
-    "Title": "Cappuccino",
-    "Description": "Rich espresso combined with steamed milk and foam.",
-    "Price": 180,
-    "Author": "Kaldi",
-    "Featured": true
-  },
-  {
-    "Title": "Latte",
-    "Description": "Smooth espresso with steamed milk.",
-    "Price": 160,
-    "Author": "Kaldi",
-    "Featured": false
-  }
+  "Title": "Latte",
+  "Description": "A smooth and creamy coffee made with a rich shot of espresso and plenty of steamed milk, topped with a delicate layer of soft milk foam. Its balanced flavor and velvety texture make it a perfect choice for coffee lovers who enjoy a mild, comforting, and refreshing cup of coffee.",
+  "Price": 160,
+  "Author": "Kaldi",
+  "Featured": true
+}
 ]
