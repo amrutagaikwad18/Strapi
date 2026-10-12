@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,14 +13,24 @@
       padding: 0;
     }
 
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: Arial, sans-serif;
       color: #263c32;
       background: #f7fbf7;
       line-height: 1.7;
+      overflow-x: hidden;
     }
 
     .hero {
+      width: 100%;
       min-height: 540px;
       padding: 65px 20px;
       text-align: center;
@@ -54,9 +64,16 @@
       font-size: 1.1rem;
     }
 
+    main {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
     .benefits {
-      max-width: 1200px;
-      margin: 0 auto;
+      width: 100%;
+      max-width: none;
+      margin: 0;
       padding: 55px 24px 30px;
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -93,6 +110,7 @@
     }
 
     .message {
+      width: 100%;
       padding: 15px 20px 55px;
       text-align: center;
       color: #145438;
@@ -102,6 +120,8 @@
     }
 
     footer {
+      width: 100%;
+      margin: 0;
       padding: 22px;
       text-align: center;
       background: #e3f0e4;
@@ -205,3 +225,4 @@
   </footer>
 </body>
 </html>
+```
