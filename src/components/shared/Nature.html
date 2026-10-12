@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature - Save Nature, Save Life</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #263c32;
+      background: #f7fbf7;
+      line-height: 1.7;
+    }
+
+    .hero {
+      min-height: 540px;
+      padding: 65px 20px;
+      text-align: center;
+      background:
+        linear-gradient(
+          rgba(255, 255, 255, 0.55),
+          rgba(255, 255, 255, 0.15)
+        ),
+        url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2000&q=85")
+        center / cover no-repeat;
+    }
+
+    .hero h1 {
+      color: #104b32;
+      font-family: Georgia, serif;
+      font-size: clamp(3rem, 7vw, 5.5rem);
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #17623f;
+      font-size: 1.25rem;
+      letter-spacing: 4px;
+      margin-bottom: 22px;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 8px auto;
+      color: #273d36;
+      font-size: 1.1rem;
+    }
+
+    .benefits {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 55px 24px 30px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 28px;
+      text-align: center;
+    }
+
+    .benefit {
+      padding: 20px 12px;
+    }
+
+    .icon {
+      width: 75px;
+      height: 75px;
+      margin: 0 auto 14px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #e0efe3;
+      color: #17623f;
+      font-size: 2.2rem;
+    }
+
+    .benefit h2 {
+      font-family: Georgia, serif;
+      color: #145438;
+      font-size: 1.45rem;
+      margin-bottom: 10px;
+    }
+
+    .benefit p {
+      color: #4c5952;
+      font-size: 1rem;
+    }
+
+    .message {
+      padding: 15px 20px 55px;
+      text-align: center;
+      color: #145438;
+      font-family: Georgia, serif;
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-style: italic;
+    }
+
+    footer {
+      padding: 22px;
+      text-align: center;
+      background: #e3f0e4;
+      color: #315d42;
+    }
+
+    @media (max-width: 800px) {
+      .benefits {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .hero {
+        min-height: 460px;
+        padding-top: 55px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .benefits {
+        grid-template-columns: 1fr;
+      }
+
+      .subtitle {
+        letter-spacing: 2px;
+      }
+
+      .hero {
+        padding: 40px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <h1>Nature</h1>
+    <div class="subtitle">A Gift Worth Protecting</div>
+
+    <p>
+      Nature gives us clean air, fresh water, healthy food
+      and a peaceful mind.
+    </p>
+
+    <p>
+      It is not just our home, but our greatest source
+      of inspiration and life.
+    </p>
+
+    <p>
+      Let's appreciate, protect and preserve it for
+      future generations.
+    </p>
+  </header>
+
+  <main>
+    <section class="benefits">
+      <article class="benefit">
+        <div class="icon" aria-hidden="true">🌿</div>
+        <h2>Cleaner Air</h2>
+        <p>
+          Trees and plants filter the air we breathe
+          and keep our planet healthy.
+        </p>
+      </article>
+
+      <article class="benefit">
+        <div class="icon" aria-hidden="true">💧</div>
+        <h2>Pure Water</h2>
+        <p>
+          Forests, rivers and oceans provide fresh
+          water and support all life.
+        </p>
+      </article>
+
+      <article class="benefit">
+        <div class="icon" aria-hidden="true">🐾</div>
+        <h2>Biodiversity</h2>
+        <p>
+          Every plant and animal plays a vital role
+          in keeping ecosystems balanced.
+        </p>
+      </article>
+
+      <article class="benefit">
+        <div class="icon" aria-hidden="true">⛰️</div>
+        <h2>A Healthier Future</h2>
+        <p>
+          A greener planet means better health,
+          happiness and opportunities for all.
+        </p>
+      </article>
+    </section>
+
+    <section class="message">
+      Save Nature, Save Life
+    </section>
+  </main>
+
+  <footer>
+    <p>Every small step makes a difference. Protect our planet.</p>
+  </footer>
+</body>
+</html>
